@@ -11,7 +11,8 @@ module.exports = {
     entry: './src/javascripts/main.js',
     output: {
         path: path.resolve(__dirname, './dist'),
-        filename: 'javascripts/main.js'
+        filename: 'javascripts/main.js',
+        publicPath: '/',
     },
     module: {
         rules: [
